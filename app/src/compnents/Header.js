@@ -2,6 +2,7 @@ import logo from '../logo/wJ-removebg-preview.png'
 import mongodb from '../picture/icons8-mongodb-48.png'
 import typescript from '../picture/icons8-typescript-48.png'
 import nextjs from '../picture/OIP-removebg-preview.png'
+import tailwind from '../picture/tailwind.png'
 
 
 export default function Header() {
@@ -52,10 +53,7 @@ export default function Header() {
         <p>React Js <i className="fa-brands fa-react"></i></p>
 
         </span>
-    </div>
-<h2 className='still-learing'>Still Learning :</h2>
-        <div className='skills-bar'>
-                <span className='git'>
+        <span className='git'>
         <p>GIT <i class="fa-brands fa-git-alt"></i></p>
 
         </span>
@@ -66,22 +64,15 @@ export default function Header() {
         </span>
 
         <span className='next-js'>
+        <p>Tailwind <img className='mongoicon' src={tailwind} alt="" /></p>
+
+        </span>
+    </div>
+<h2 className='still-learing'>Still Learning :</h2>
+        <div className='skills-bar'>
+
+        <span className='next-js'>
         <p>Next JS  <img className='mongoicon' src={nextjs} alt="" /></p>
-
-        </span>
-
-        <span className='php'>
-        <p>PHP <i className="fa-brands fa-php"></i></p>
-
-        </span>
-
-        <span className='sql'>
-        <p>SQL <i className="fa-solid fa-database"></i></p>
-
-        </span>
-
-        <span className='laravel'>
-        <p>Laravel <i className="fa-brands fa-laravel"></i></p>
 
         </span>
 
